@@ -1,0 +1,182 @@
+.glow:focus {
+  border-color: #04bcae;
+  box-shadow: 0 0 8px 0 #04bcae;
+}
+
+.glow:hover {
+  border-color: #04bcae;
+  box-shadow: 0 0 8px 0 #04bcae;
+}
+
+.glow2:focus {
+  border-color: white;
+  box-shadow: 0 0 8px 0 white;
+}
+
+.glow2:hover {
+  border-color: white;
+  box-shadow: 0 0 8px 0 white;
+}
+
+/* font-family: 'Allura', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Modak', cursive;
+font-family: 'Palanquin', sans-serif; */
+.Ccontainer {
+  width: 100%;
+}
+
+.Ccontainer img {
+  height: 35rem;
+}
+
+.form-row img {
+  width: 14rem;
+  height: 14rem;
+  margin-left: 50%;
+}
+
+.htext {
+  font-family: 'Modak', cursive;
+  font-size: 2rem;
+  letter-spacing: 3px;
+  -webkit-text-stroke: 1px black;
+}
+
+.h2text {
+  font-family: 'Modak', cursive;
+  font-size: 4rem;
+  margin: 3rem;
+  text-align: center;
+  -webkit-text-stroke: 1px black;
+}
+
+.h3text {
+  font-family: 'Modak', cursive;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 20px;
+  -webkit-text-stroke: .2px white;
+}
+
+.ptext {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+  -webkit-text-stroke: .5px black;
+}
+
+.p2text {
+  font-family: 'Allura', cursive;
+  font-size: 1.2rem;
+  text-align: center;
+  -webkit-text-stroke: .5px black;
+}
+
+.footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.fp {
+  padding: .3rem;
+  color: black;
+}
+
+.fp2 {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.card img {
+  height: 12rem;
+}
+
+.cardp {
+
+  width: 19rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  height: 33rem;
+  box-shadow: 0px 0px 15px 5px #04bcae;
+  border-radius: 10px;
+}
+
+.tmargin {
+  margin: 20px 5px;
+  border-radius: 15px;
+}
+
+.cardp2 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+.btncenter {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.appimg {
+  padding-top: 50px;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+.ct {
+  background-color: black;
+  opacity: 0.5;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.tc {
+  background-color: #04bcae;
+  color: white;
+}
+
+.tc2 {
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+}
+
+#rating {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+  z-index: 1;
+}
+
+#InputMsg {
+  resize: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .Ccontainer img {
+    height: 25rem;
+  }
+
+  .cardp2 {
+    width: 60%;
+  }
+
+  .appimg {
+    transform: rotate(0deg);
+    position: relative;
+  }
+
+  .card img {
+    height: 11rem;
+  }
+}
